@@ -42,7 +42,6 @@ Attention à l'installation du bon Driver de connexion sur l'environnement Machi
 * La Version du PHP
 * La protection de toutes les entrées et sorties de l'interprétateur PHP
 ```
-
 - Protection du CGI (injection HTTP) ou FPM (sécurité sur les sockets).
 - Sanitizer permanent sur les verbes HTTP (GET - POST - HEAD - OPTIONS - CONNECT - TRACE - PUT - PATCH - DELETE ).
 - Complexifier l'utilisation des cookies par des vérifications complexes sur l'identification du client et du serveur.
@@ -50,5 +49,4 @@ Attention à l'installation du bon Driver de connexion sur l'environnement Machi
 - Installez des LOGS pour garder la trace des attaques potencielles.
 - Désactivez l'utilisation de méthode interface système (mail, command, ressource, socket, ...)
 - L'obfuscation peut être rajoutée au dessus de la sécurité existante.
-
 ```
